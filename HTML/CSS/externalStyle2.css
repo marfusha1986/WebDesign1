@@ -1,0 +1,83 @@
+
+
+/*@font-face{
+      font-family:mySpecialFont;
+      src: url('Colleen.ttf');
+}
+h1{
+    font-family:mySpecialFont;
+}*/
+
+h1, span{
+    color: #0000FF;        /*Blue*/
+    background-color: #B3B3B3 /*Grey*//*Notice the difference for inline elements*/
+
+}
+h1 {
+    font-variant: small-caps; /*normal*/
+    color: #000080;
+    background-color: rgba(220, 245, 241, 0.33);
+    font-family: Arial, sans-serif; /*Times,Courier, Impact*/
+    font-style: normal; /*normal,italic,oblique*/
+    font-size: xx-large; /*xx-small,small,smaller,medium,larger,x-large,xx-large,larger,or 20 pixel*/
+    text-align: center; /*left,right, center, justify*/
+    line-height: 50%; /*200%*/
+}
+
+header{
+    background-color: #66666600;
+    text-align: center;
+}
+
+nav{
+    font-variant: small-caps;
+    font-size: 150%;
+    font-family: Arial, "Times New Roman", serif;
+}
+
+h2{
+    color:#000080;
+    background-color: rgba(140, 234, 209, 0.51);
+    font-variant: small-caps;
+
+}
+ p{
+     color: black;
+     font-variant: normal;
+     font-style: normal;
+     display: compact;
+     float: inherit;
+ }
+
+details{
+    font-style: italic;
+    font-size: medium;
+}
+
+summary{
+    font-style: italic;
+    font-size: x-large;
+    background-color: rgba(64, 255, 0, 0.12);
+}
+
+div{
+   font-family: Arial, "Times New Roman", serif;
+    font-size: smaller;
+    color: aqua;
+    display: block;
+    width: 70%;
+    height:70%;
+    float: none;
+}
+img{
+    display: inline-block;
+    width:85%;
+    height:85%;
+}
+
+footer{
+    background-color: rgba(102, 102, 102, 0.26);
+    text-align: center;
+    font-size: x-large;
+}
+
